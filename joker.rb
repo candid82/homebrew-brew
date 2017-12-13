@@ -1,9 +1,9 @@
 class Joker < Formula
   desc "Small Clojure interpreter and linter"
   homepage "https://github.com/candid82/joker"
-  url "https://github.com/candid82/joker/releases/download/v0.8.6/joker-0.8.6-mac-amd64.zip"
-  sha256 "ca87520d02803a0f9c468b849671a61e6638eada34eef13c54a5386dd009a176"
-  version "0.8.6"
+  url "https://github.com/candid82/joker/releases/download/v0.8.7/joker-0.8.7-mac-amd64.zip"
+  sha256 "7cf467c14a4f38bd2f5d222968c62a31b37e37ef86388b8e215b51f7e07d1343"
+  version "0.8.7"
 
   bottle :unneeded
 
