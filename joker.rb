@@ -1,14 +1,14 @@
 class Joker < Formula
   desc "Small Clojure interpreter and linter"
   homepage "https://github.com/candid82/joker"
-  version "0.9.4"
+  version "0.9.5"
 
   if OS.linux?
-    url "https://github.com/candid82/joker/releases/download/v0.9.4/joker-0.9.4-linux-amd64.zip"
-    sha256 "b2a8defd21397d05094927c54c0147b901ed34300d8f24c73c839f8cf7f9b043"
+    url "https://github.com/candid82/joker/releases/download/v0.9.5/joker-0.9.5-linux-amd64.zip"
+    sha256 "b1d7e1493e004e9422e9a2b4f5f73eeadd360e7cb1432a1a068e46dc9adbf87c"
   else
-    url "https://github.com/candid82/joker/releases/download/v0.9.4/joker-0.9.4-mac-amd64.zip"
-    sha256 "719f7564aeabf624bb3cf36545d9afb48f591a98a1498ec80969ee73c5413209"
+    url "https://github.com/candid82/joker/releases/download/v0.9.5/joker-0.9.5-mac-amd64.zip"
+    sha256 "9c62313ba32b9176a5307c8a602c8b594f4c38526958099f3fd82b8dc6e1b3b5"
   end
 
   bottle :unneeded
