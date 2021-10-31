@@ -11,8 +11,6 @@ class Joker < Formula
     sha256 "c95a1dee6985d2f1a1af6781d058c3dba2c3838762e8a2a2737da51f8b713275"
   end
 
-  bottle :unneeded
-
   def install
     bin.install "joker"
   end
