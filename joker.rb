@@ -3,7 +3,10 @@ class Joker < Formula
   homepage "https://github.com/candid82/joker"
   version "1.7.0"
 
-  if OS.linux?
+  if OS.linux? && Hardware::CPU.arm?
+    url "https://github.com/candid82/joker/releases/download/v1.7.0/joker-linux-arm64.zip"
+    sha256 "0000000000000000000000000000000000000000000000000000000000000000" # linux-arm64
+  elsif OS.linux?
     url "https://github.com/candid82/joker/releases/download/v1.7.0/joker-linux-amd64.zip"
     sha256 "21cf695c3adb58322244ae42afb95447b376bdf03176bdac58255fb3c585c46f" # linux-amd64
   elsif Hardware::CPU.arm?
