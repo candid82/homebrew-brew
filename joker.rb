@@ -1,20 +1,20 @@
 class Joker < Formula
   desc "Small Clojure interpreter and linter"
   homepage "https://github.com/candid82/joker"
-  version "1.8.2"
+  version "1.8.3"
 
   if OS.linux? && Hardware::CPU.arm?
-    url "https://github.com/candid82/joker/releases/download/v1.8.2/joker-linux-arm64.zip"
-    sha256 "12a05f494a8018402840c0f5cae26df635e100596e839a5f0417d34cd356a7db" # linux-arm64
+    url "https://github.com/candid82/joker/releases/download/v1.8.3/joker-linux-arm64.zip"
+    sha256 "4393b811e58290f00113ff30c4b6c02615e52e63f93fa6bf7e01d260eb7c9d31" # linux-arm64
   elsif OS.linux?
-    url "https://github.com/candid82/joker/releases/download/v1.8.2/joker-linux-amd64.zip"
-    sha256 "fc877bd21959c82885ae8a130da009023e6dbe72c2ede84a025e065c04262d2d" # linux-amd64
+    url "https://github.com/candid82/joker/releases/download/v1.8.3/joker-linux-amd64.zip"
+    sha256 "99b9aa4ff6e600d5895b4edf989cbdb753d096d0c2fe07c9d4dae1734a112a38" # linux-amd64
   elsif Hardware::CPU.arm?
-    url "https://github.com/candid82/joker/releases/download/v1.8.2/joker-mac-arm64.zip"
-    sha256 "e230c66d238add22086a56fc20d35290d322325b000c172e90b20ea2e2bac462" # mac-arm64
+    url "https://github.com/candid82/joker/releases/download/v1.8.3/joker-mac-arm64.zip"
+    sha256 "e367dce3b95f9d7e0f8e224b5998876bbf804cec9b9b190df9ad16eebe95a12a" # mac-arm64
   else
-    url "https://github.com/candid82/joker/releases/download/v1.8.2/joker-mac-amd64.zip"
-    sha256 "18f008d952428f7a484cda14bfae9a4413d84e5bd42b5f0abadc27be622086d2" # mac-amd64
+    url "https://github.com/candid82/joker/releases/download/v1.8.3/joker-mac-amd64.zip"
+    sha256 "79eade16e6f81ad72689cdffd46ac237b792fbb4274b634f21709ed4a95e4393" # mac-amd64
   end
 
   def install
